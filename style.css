@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spatan',sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+
+}
+h4{
+    font-size: 20px;
+    color: black;
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+    color: #2C3333;
+    margin: 15px 0 20px 0;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    /*background-color:#FFFBE9;*/
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+/*navbar*/
+#navbar
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: 0.5s ease;
+}
+
+
+#navbar li a:hover{
+    /*color: #088178;*/
+    color: #DAE2B6;
+
+}
+#navbar li a:hover,
+#navbar li a.active{
+    /*color: #0E8388;*/
+    color: #DAE2B6;
+}
+/*banner section*/
+#hero {
+  background-image: url(image/tshirt.jpg);
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#hero h4{
+  color: white;
+}
+
+#hero h1{
+  color: black;
+}
+
+
+/*product   section */
+#product1{
+  text-align: center;
+}
+.pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.02s ease;
+    position: relative; 
+    text-align: center;
+}
+.pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+.procontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+.des{
+  padding: 10px 10px;
+}
+#product1 .pro .des i{
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+#product1 .pro .cart{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  color: #088178;
+  border: 1px solid #cce7d0;
+  bottom: 20px;
+  right: 10px;
+}
+
+.form {
+    margin-left: 500px;
+    display: flex;
+    width: 40%;}
+.input {
+        height: 2rem;
+        padding: 0 1.25em;
+        font-size: 14px;
+        width: 100%;
+        border: none;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        outline: none;
+        
+}
+.normal {
+    background-color: #DAE2B6;
+    color: #575757;
+    white-space: nowrap;
+    border: none;
+    width: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo{
+    margin-bottom: 30px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom:10px ;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0px 15px 0;
+}
+ footer .follow i:hover,
+ footer a:hover{
+    color: #088178;
+ }
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+
+    color: #2C3333;
+}
